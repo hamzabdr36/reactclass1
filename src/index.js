@@ -5,9 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<div><App name="hamza badar" gender = "male" age={23}/></div>,  //{23} number can be provided this expression way in react
+
   document.getElementById('root')
 );
 
